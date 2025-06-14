@@ -1,0 +1,42 @@
+body {
+    background-color: #403D39;
+    color: #CCC5B9;
+}
+
+i {
+    vertical-align: bottom;
+}
+
+.btn {
+    background-color: transparent;
+    color: #CCC5B9;
+    border: 2px solid black;
+    border-color: #CCC5B9;
+    padding: 12px;
+}
+
+.btn-login {
+    background-color: #eb5e28;
+    border: none;
+    color: #252422;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
+
+#form {
+    background-color: #252422;
+    color: white;
+}
+
+.form {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
