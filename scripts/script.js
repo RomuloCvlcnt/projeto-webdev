@@ -17,25 +17,4 @@ async function getClima() {
     }
 }
 
-function atualizarDataHora() {
-    const agora = new Date();
-
-    // Data: formato "13/06/2025"
-    const dataFormatada = agora.toLocaleDateString("pt-BR");
-
-    // Hora: formato "16:30:45"
-    const horaFormatada = agora.toLocaleTimeString("pt-BR", {
-        hour: '2-digit',
-        minute: '2-digit'
-    });
-
-    document.getElementById("hora").innerText = " ⏰ Hora: " + horaFormatada;
-    document.getElementById("data").innerText = " 📅 Data: " + dataFormatada;
-}
-
-atualizarDataHora();
-
-setInterval(atualizarDataHora, 1000);
-
-
 getClima();
